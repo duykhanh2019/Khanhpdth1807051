@@ -154,6 +154,7 @@
     <Compile Include="Pages\SongForm.xaml.cs">
       <DependentUpon>SongForm.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\SongServiceImp.cs" />
     <Compile Include="Pages\Upload.xaml.cs">
       <DependentUpon>Upload.xaml</DependentUpon>
     </Compile>
@@ -167,7 +168,7 @@
     <Compile Include="Service\MemberService.cs" />
     <Compile Include="Service\MemberServiceImp.cs" />
     <Compile Include="Service\MemberServiceWithDatabaselmp.cs" />
-    <Compile Include="Service\SongService.cs" />
+    <Compile Include="Service\SongServiceImp.cs" />
     <Compile Include="Service\ValidateMessage.cs" />
   </ItemGroup>
   <ItemGroup>

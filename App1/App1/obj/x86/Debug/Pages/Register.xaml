@@ -15,7 +15,7 @@
         </RelativePanel>
         <ScrollViewer HorizontalAlignment="Center" Width="400">
             <StackPanel>
-                <TextBox x:ConnectionId='2' x:Name="FirstName" Header="FirstName" Margin="0 0 0 20"></TextBox>
+                <TextBox x:ConnectionId='2' x:Name="FirstName" Header="FirstName" Margin="0 0 0 5"></TextBox>
                 <TextBlock x:ConnectionId='3' x:Name="errorName" Visibility="Collapsed" Margin="0 0 0 10" Foreground="Red"/>
 
                 <TextBox x:ConnectionId='4' x:Name="LastName" Header="LastName" Margin="0 0 0 20"></TextBox>

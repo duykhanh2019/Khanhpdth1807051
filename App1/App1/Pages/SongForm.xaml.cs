@@ -31,7 +31,7 @@ namespace App1.Pages
         {
             this.InitializeComponent();
             //currentSong = new Song();
-            songService = new SongService();
+            songService = new Service.SongServiceImp();
         }
 
         private void ButtonBase_OnClick(object sender, RoutedEventArgs e)

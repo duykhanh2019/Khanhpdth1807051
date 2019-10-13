@@ -14,6 +14,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using App1.Constant;
 using App1.Entity;
 using App1.Service;
 
@@ -28,19 +29,20 @@ namespace App1.Pages
     {
         private ISongService songService;
         private bool _isPlaying;
+        private string loginToken;
         private int _currentIndex = 0;
         private ObservableCollection<Song> _songs;
 
         public ListSong()
         {
             this.InitializeComponent();
-            songService = new SongService();
+            songService = new Service.SongServiceImp();
             LoadSongs();
         }
 
         private void LoadSongs()
         {
-            _songs = songService.GetFreeSongs();
+            _songs = songService.GetSongs(loginToken, ApiUrl.SONG_URL);
             MySong.ItemsSource = _songs;
             _currentIndex = 0;
         }

@@ -15,11 +15,11 @@
         </RelativePanel>
         <ScrollViewer HorizontalAlignment="Center" Width="400">
             <StackPanel>
-                <TextBox x:Name="FirstName" Header="FirstName" Margin="0 0 0 20"></TextBox>
-                <TextBlock x:Name="errorName" Visibility="Collapsed" Margin="0 0 0 10" Foreground="Red"/>
+                <TextBox x:Name="FirstName" Header="FirstName" Margin="0 0 0 5"></TextBox>
+                <TextBlock x:Name="errorName" Visibility="Collapsed" Margin="0 0 0 20" Foreground="Red"/>
 
-                <TextBox x:Name="LastName" Header="LastName" Margin="0 0 0 20"></TextBox>
-                <TextBlock x:Name="errorLast" Visibility="Collapsed" Foreground="Red"></TextBlock>
+                <TextBox x:Name="LastName" Header="LastName" Margin="0 0 0 5"></TextBox>
+                <TextBlock x:Name="errorLast" Visibility="Collapsed" Margin="0 0 0 20" Foreground="Red"></TextBlock>
 
                 <StackPanel Margin="0, 0 , 0, 10">
                     <Grid>
@@ -38,20 +38,20 @@
 
                         <TextBlock Grid.Column="1" Grid.Row="0" Text="Gender" Margin="10,0,0,0"/>
                         <ComboBox Grid.Column="1" Grid.Row="1" x:Name="Gender" Margin="10,0,0,5" Width="70"></ComboBox>
-                        <TextBlock Grid.Column="1" Grid.Row="2" x:Name="errorGender" Foreground="Red" Visibility="Collapsed" Margin="0,0,0,0"/>
+                        <TextBlock Grid.Column="1" Grid.Row="2" x:Name="errorGender" Foreground="Red" Visibility="Collapsed" Margin="-10 0 0 0"/>
                     </Grid>
                 </StackPanel>
-                <TextBlock x:Name="errorPhone" Foreground="Red" Width="420" HorizontalAlignment="Left" Visibility="Collapsed"></TextBlock>
-                <TextBox x:Name="Phone" Header= "Phone" Margin="0 0 0 20"/>
-
-                <TextBlock x:Name="errorAddress" Foreground="Red" Width="420" HorizontalAlignment="Left" Visibility="Collapsed">Address</TextBlock>
-                <TextBox x:Name="Address" Header= "Address" Margin="0 0 0 20"></TextBox>
-                <TextBlock x:Name="errorIntrodution" Foreground="Red" Width="420" HorizontalAlignment="Left" Visibility="Collapsed">Introduction</TextBlock>
-                <TextBox x:Name="Introduction" Header= "Introduction" Margin="0 0 0 20"></TextBox>
-                <TextBlock Style="{ThemeResource BaseTextBlockStyle}" x:Name="errorEmail" Foreground="Red" Width="420" HorizontalAlignment="Left" Visibility="Collapsed">Email(*)</TextBlock>
-                <TextBox x:Name="Email" Header= "Email" Margin="0 0 0 20"></TextBox>
-                <TextBlock Style="{ThemeResource BaseTextBlockStyle}" x:Name="errorPassword" Foreground="Red" Width="420" HorizontalAlignment="Left" Visibility="Collapsed">Password(*)</TextBlock>
-                <PasswordBox x:Name="Password" Header= "Password" Margin="0 0 0 20"></PasswordBox>
+                <TextBox x:Name="Phone" Header= "Phone" Margin="0 0 0 5"/>
+                <TextBlock x:Name="errorPhone" Foreground="Red" Margin="0 0 0 20" Width="420" HorizontalAlignment="Left" Visibility="Collapsed"></TextBlock>
+                <TextBox x:Name="Address" Header= "Address" Margin="0 0 0 5"></TextBox>
+                <TextBlock x:Name="errorAddress" Foreground="Red" Width="420" Margin="0 0 0 20" HorizontalAlignment="Left" Visibility="Collapsed">Address</TextBlock>
+                <TextBox x:Name="Introduction" Header= "Introduction" Margin="0 0 0 5"></TextBox>
+                <TextBlock x:Name="errorIntrodution" Foreground="Red" Margin="0 0 0 20" Width="420" HorizontalAlignment="Left" Visibility="Collapsed">Introduction</TextBlock>
+                <TextBox x:Name="Email" Header= "Email" Margin="0 0 0 5"></TextBox>
+                <TextBlock Style="{ThemeResource BaseTextBlockStyle}" Margin="0 0 0 20" x:Name="errorEmail" Foreground="Red" Width="420" HorizontalAlignment="Left" Visibility="Collapsed">Email(*)</TextBlock>
+                <PasswordBox x:Name="Password" Header= "Password" Margin="0 0 0 10"></PasswordBox>
+                <TextBlock Style="{ThemeResource BaseTextBlockStyle}" Margin="0 0 0 20" x:Name="errorPassword" Foreground="Red" Width="420" HorizontalAlignment="Left" Visibility="Collapsed">Password(*)</TextBlock>
+                
                 <Grid HorizontalAlignment="Center">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>

@@ -10,8 +10,8 @@ namespace App1.Service
 {
     interface ISongService
     {
-        Song PostSongFree(Song song);
-
-        ObservableCollection<Song> GetFreeSongs();
+        Song PostSong(Song song, string token);
+        ObservableCollection<Song> GetSongs(string token, string apiUrl);
+        ObservableCollection<Song> GetSongs(string apiUrl);
     }
 }

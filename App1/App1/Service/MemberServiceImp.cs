@@ -17,8 +17,19 @@ namespace App1.Service
 
         public Member GetInformation(string token)
         {
-
-            throw new NotImplementedException();
+            try
+            {
+                HttpClient client = new HttpClient();
+                client.DefaultRequestHeaders.Add("Authorization", "Basic " + token);
+                var responseContent = client.GetAsync(ApiUrl.GET_INFORMATION_URL).Result.Content.ReadAsStringAsync().Result;
+                Member mem = Newtonsoft.Json.JsonConvert.DeserializeObject<Member>(responseContent);
+                return mem;
+            }
+            catch (Exception e)
+            {
+                Debug.WriteLine(e.Message);
+                return null;
+            }
         }
 
         public string Login(string username, string password)
@@ -86,13 +97,6 @@ namespace App1.Service
             return jsonJObject["token"].ToString();
         }
 
-        //private void SaveTokenToLocalStorage(string token)
-        //{
-        //    Windows.Storage.StorageFolder storageFolder = Windows.Storage.ApplicationData.Current.LocalFolder;
-        //    Windows.Storage.StorageFile sampleFile = storageFolder.CreateFileAsync("abcdz.txt",
-        //        Windows.Storage.CreationCollisionOption.ReplaceExisting).GetAwaiter().GetResult();
-        //    Windows.Storage.FileIO.WriteTextAsync(sampleFile, token).GetAwaiter().GetResult();
-        //}
         public string ReadTokenFromLocalStorage()
         {
             try

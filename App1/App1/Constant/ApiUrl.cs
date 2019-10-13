@@ -13,5 +13,7 @@ namespace App1.Constant
         public const string LOGIN_URL = API_BASE_URL + "/members/authentication";
         public const string GET_INFORMATION_URL = API_BASE_URL + "/members/information";
         public const string GET_FREE_SONG_URL = API_BASE_URL + "/songs/get-free-songs";
+        public const string SONG_URL = API_BASE_URL + "/songs";
+        public const string GET_MINE_SONG_URL = API_BASE_URL + "/songs/get-mine";
     }
 }

@@ -29,6 +29,8 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="Orientation" />
       <RootProperty Name="Tag" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Visibility" />
       <RootEvent Name="Tapped" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
@@ -41,8 +43,8 @@
       <RootProperty Name="TextAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="FontSize" />
-      <RootProperty Name="Width" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Width" />
       <RootEvent Name="PointerPressed" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
@@ -54,6 +56,7 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="Content" />
       <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Height" />
       <RootProperty Name="Background" />
       <RootProperty Name="VerticalAlignment" />
