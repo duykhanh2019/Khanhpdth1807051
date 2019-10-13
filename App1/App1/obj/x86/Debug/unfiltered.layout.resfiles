@@ -10,4 +10,14 @@ abc.xbf
 App.xbf
 App1.xr.xml
 MainPage.xbf
+Pages\FileHandle.xbf
+Pages\ListSong.xbf
+Pages\Login.xbf
+Pages\MasterLayout.xbf
+Pages\MySong.xbf
+Pages\Naview.xbf
+Pages\Register.xbf
+Pages\SongForm.xbf
+Pages\Upload.xbf
+Pages\UserProfile.xbf
 Properties\Default.rd.xml

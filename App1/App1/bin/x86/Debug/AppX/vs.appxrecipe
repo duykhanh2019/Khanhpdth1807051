@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-02T15:22:31.502</Modified>
+      <Modified>2019-10-13T15:49:53.534</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\App1.exe">
       <PackagePath>entrypoint\App1.exe</PackagePath>
-      <Modified>2019-10-02T15:22:30.904</Modified>
+      <Modified>2019-10-13T15:49:52.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\khanhSky\.nuget\packages\newtonsoft.json\12.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -90,19 +90,59 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\App1.xr.xml">
       <PackagePath>App1.xr.xml</PackagePath>
-      <Modified>2019-10-02T14:58:04.490</Modified>
+      <Modified>2019-10-13T15:02:16.970</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-10-02T15:22:30.606</Modified>
+      <Modified>2019-10-13T15:49:52.162</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\abc.xbf">
       <PackagePath>abc.xbf</PackagePath>
-      <Modified>2019-10-02T15:22:30.607</Modified>
+      <Modified>2019-10-13T15:49:52.162</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-10-02T15:22:30.607</Modified>
+      <Modified>2019-10-13T15:49:52.162</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\Pages\FileHandle.xbf">
+      <PackagePath>Pages\FileHandle.xbf</PackagePath>
+      <Modified>2019-10-13T15:49:52.162</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\Pages\ListSong.xbf">
+      <PackagePath>Pages\ListSong.xbf</PackagePath>
+      <Modified>2019-10-13T15:49:52.162</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\Pages\Login.xbf">
+      <PackagePath>Pages\Login.xbf</PackagePath>
+      <Modified>2019-10-13T15:49:52.162</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\Pages\MasterLayout.xbf">
+      <PackagePath>Pages\MasterLayout.xbf</PackagePath>
+      <Modified>2019-10-13T15:49:52.162</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\Pages\MySong.xbf">
+      <PackagePath>Pages\MySong.xbf</PackagePath>
+      <Modified>2019-10-13T15:49:52.162</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\Pages\Naview.xbf">
+      <PackagePath>Pages\Naview.xbf</PackagePath>
+      <Modified>2019-10-13T15:49:52.162</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\Pages\Register.xbf">
+      <PackagePath>Pages\Register.xbf</PackagePath>
+      <Modified>2019-10-13T15:49:52.162</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\Pages\SongForm.xbf">
+      <PackagePath>Pages\SongForm.xbf</PackagePath>
+      <Modified>2019-10-13T15:49:52.162</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\Pages\Upload.xbf">
+      <PackagePath>Pages\Upload.xbf</PackagePath>
+      <Modified>2019-10-13T15:49:52.162</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\Pages\UserProfile.xbf">
+      <PackagePath>Pages\UserProfile.xbf</PackagePath>
+      <Modified>2019-10-13T15:49:52.162</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -110,11 +150,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-10-02T15:05:49.207</Modified>
+      <Modified>2019-10-13T13:55:33.290</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\Core\App1.exe">
       <PackagePath>App1.exe</PackagePath>
-      <Modified>2019-10-02T15:22:31.474</Modified>
+      <Modified>2019-10-13T15:49:53.496</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

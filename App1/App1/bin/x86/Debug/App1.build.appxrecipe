@@ -79,6 +79,36 @@
     <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\Pages\FileHandle.xbf">
+      <PackagePath>Pages\FileHandle.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\Pages\ListSong.xbf">
+      <PackagePath>Pages\ListSong.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\Pages\Login.xbf">
+      <PackagePath>Pages\Login.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\Pages\MasterLayout.xbf">
+      <PackagePath>Pages\MasterLayout.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\Pages\MySong.xbf">
+      <PackagePath>Pages\MySong.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\Pages\Naview.xbf">
+      <PackagePath>Pages\Naview.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\Pages\Register.xbf">
+      <PackagePath>Pages\Register.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\Pages\SongForm.xbf">
+      <PackagePath>Pages\SongForm.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\Pages\Upload.xbf">
+      <PackagePath>Pages\Upload.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanhSky\Desktop\Assigment Part1\Khanhpdth1807051\App1\App1\bin\x86\Debug\Pages\UserProfile.xbf">
+      <PackagePath>Pages\UserProfile.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>

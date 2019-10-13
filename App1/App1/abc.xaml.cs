@@ -29,7 +29,7 @@ namespace App1
     /// </summary>
     public sealed partial class abc : Page
     {
-        private string postUrl = "https://2-dot-backup-server-003.appspot.com/_api/v2/songs/post-free";
+        private string postUrl = "https://2-dot-backup-server-003.appspot.com/api/v2/songs";
         public abc()
         {
             this.InitializeComponent();
